@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <form class="Container">
+        <h1>SIGNUP FORM</h1>
+        <div>
+            <input id="Name" type="text" placeholder="Enter your Username">
+            <p id="nameError" class="error-msg"></p>
+        </div>
+        <div>
+            <input id="Email" type="email" placeholder="Enter your Email">
+            <p id="emailError" class="error-msg"></p>
+        </div>
+        <div>
+            <div class="box">
+                <input id="Password" type="password" autocomplete="new-password" ... placeholder="Enter the Password">
+                <span id="toggle" class="glyphicon glyphicon-eye-open eye"></span>
+            </div>
+            <p id="passError" class="error-msg"></p>
+        </div>
+        <div>
+            <button id="Submit" type="submit">SUBMIT</button> 
+        </div>
+    </form> 
+    <script src="form.js"></script>
+</body>
+</html>

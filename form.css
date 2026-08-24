@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    min-height: 100vh;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+}
+h1{
+    color:rgb(23, 22, 22);
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    border: 1px solid rgb(236, 233, 233);;
+    border-radius: 25px;
+    padding: 50px;
+    background-color: rgb(236, 233, 233);
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.Container > div {
+    text-align: center;
+}
+input{
+    border-radius: 20px;
+    padding: 15px;
+    color: rgb(23, 22, 22);
+    
+}
+button{
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(23, 22, 22);
+}
+button:hover{
+    background-color: rgb(23, 22, 22);
+    color: rgb(236, 233, 233); 
+    cursor: pointer;
+}
+input:hover{
+    background-color: rgb(23, 22, 22);
+    color: rgb(236, 233, 233);
+}
+.box{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.eye{
+    position: absolute;
+    top:50%;
+    right:15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.error-msg {
+    color: #d9534f;
+    font-size: 12px;
+    margin: 4px 0 0 5px;
+    min-height: 14px;
+}
+input.invalid {
+    border: 1px solid #d9534f;
+}
+
