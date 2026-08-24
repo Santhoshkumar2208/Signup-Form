@@ -15,13 +15,15 @@ A full-stack signup/registration system with client-side validation, a FastAPI b
 - **ORM / DB:** SQLAlchemy, MySQL (`mysql-connector-python`)
 
 ## Project Structure
-├── form.html # Signup form UI
-├── form.css # Styling
-├── form.js # Client-side validation + API calls
-├── main.py # FastAPI routes
-├── models.py # Pydantic request schemas
-├── database_models.py # SQLAlchemy ORM models
-└── database.py # DB engine + session config
+```
+├── form.html            # Signup form UI
+├── form.css              # Styling
+├── form.js                # Client-side validation + API calls
+├── main.py                # FastAPI routes
+├── models.py              # Pydantic request schemas
+├── database_models.py     # SQLAlchemy ORM models
+└── database.py             # DB engine + session config
+```
 
 ## Setup
 1. Create a MySQL database named `Registration`
